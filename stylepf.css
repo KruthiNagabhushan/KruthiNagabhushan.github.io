@@ -1,0 +1,63 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	}
+
+header {
+	height: 250px;
+    background-color: black;
+   
+}
+
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bokeh-cover-bg.jpg);
+}
+.Name h1{
+	margin-left:30%;
+	text-align: auto;
+	color: white;
+	font-family: cursive;
+	padding-top: 70px;
+    font-size: 75px;
+}
+.main ul li
+{
+	display: inline-block;
+
+	margin-top: 85px;
+
+}
+.main ul li a
+{   
+	 text-decoration: none;
+	 color: white;
+	 padding: 5px 20px;
+	 border: 1px solid black;
+     transition: 0.6s ease;
+ }
+
+.main ul li a:hover{
+	background-color: white;
+	color: black;
+}
+.content {
+	color: white;
+	margin-top: 100px;
+	margin-right: 800px;
+	font-family: cursive;
+    font-style: italic;
+
+}
+.gallery img{
+
+	top:30%;
+	width: 230px;
+	
+	filter: grayscale(100%);
+	transition: 1s;
+}
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+
+}

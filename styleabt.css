@@ -1,0 +1,62 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	}
+
+header {
+	height: 250px;
+    
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg2.jpg);
+	background-size: cover;
+}
+
+body{
+	 background-color: black;
+}
+.Name h1{
+	margin-left:30%;
+	text-align: auto;
+	color: white;
+	font-family: cursive;
+	padding-top: 70px;
+    font-size: 75px;
+}
+.main ul li
+{
+	display: inline-block;
+
+	margin-top: 85px;
+
+}
+.main ul li a
+{   
+	 text-decoration: none;
+	 color: white;
+	 padding: 5px 20px;
+	 border: 1px solid pink;
+     transition: 0.6s ease;
+ }
+
+ .main ul li a:hover {
+	background-color: white;
+	color: black;
+	
+}
+.content {
+	color: white;
+	margin-top: -600px;
+	margin-right: 800px;
+	font-size: 10px;
+	font-family: cursive;
+    font-style: italic;
+
+}
+.hob {
+	font-size: 20px;
+}
+ .pic img {
+ 	height: 550px;
+ 	width: auto;
+ 	margin-top: 150px;
+ 	margin-left: 900px;
+ }
